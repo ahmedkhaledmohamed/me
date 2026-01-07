@@ -165,39 +165,23 @@ body {
 .hero-subtitle {
     font-size: clamp(1.125rem, 2vw, 1.375rem);
     color: var(--text-secondary);
+    max-width: 650px;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.hero-subtitle-secondary {
+    font-size: 1.0625rem;
+    color: var(--text-muted);
     max-width: 600px;
     margin-bottom: 3rem;
     line-height: 1.7;
+    font-style: italic;
 }
 
 .highlight {
     color: var(--text-primary);
     font-weight: 500;
-}
-
-.hero-stats {
-    display: flex;
-    gap: 4rem;
-    margin-bottom: 3rem;
-    flex-wrap: wrap;
-}
-
-.stat {
-    display: flex;
-    flex-direction: column;
-}
-
-.stat-number {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--accent);
-    letter-spacing: -0.02em;
-}
-
-.stat-label {
-    font-size: 0.875rem;
-    color: var(--text-muted);
-    margin-top: 0.25rem;
 }
 
 .hero-cta {
@@ -443,6 +427,39 @@ body {
 
 .project-link:hover {
     text-decoration: underline;
+}
+
+/* Philosophy */
+.philosophy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.philosophy-card {
+    padding: 2rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: all 0.3s;
+}
+
+.philosophy-card:hover {
+    border-color: var(--border-light);
+    transform: translateY(-2px);
+}
+
+.philosophy-card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--accent);
+}
+
+.philosophy-card p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    font-size: 0.9375rem;
 }
 
 /* Skills */
