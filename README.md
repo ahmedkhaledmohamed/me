@@ -1,32 +1,54 @@
 # Ahmed Khaled Mohamed
 
-Personal website showcasing my professional profile.
+Engineering leader with 12+ years building platforms at Spotify and Delivery Hero. Currently shipping AI products.
 
-**Live**: [ahmedkhaledmohamed.github.io/Me](https://ahmedkhaledmohamed.github.io/Me)
+**Website**: [ahmedkhaledmohamed.github.io/me](https://ahmedkhaledmohamed.github.io/me) · **LinkedIn**: [ahmedkhaledmohamed](https://linkedin.com/in/ahmedkhaledmohamed) · **Email**: ahmed.khaled.a.mohamed@gmail.com
 
 ---
 
-## About
+## Projects
 
-Engineering leader with 12 years building platforms at Spotify and Delivery Hero. Currently shipping AI products.
+### Compass AI
 
-## Tech
+Cursor for Product Managers. AI-native product discovery that connects to your product's evidence sources -- code, docs, analytics, and user feedback -- finds where they disagree, and generates agent-ready specifications.
 
-- Pure HTML/CSS/JS
-- No framework dependencies
-- Responsive design
-- GitHub Pages hosted
+Available as a CLI, desktop app (macOS/Windows/Linux), and MCP integration for Claude Code and Cursor.
 
-## Local Development
+[GitHub](https://github.com/Compass-AI-App/compass-AI) · [Website](https://compass-ai-app.github.io/compass-AI/) · [Download](https://github.com/Compass-AI-App/compass-AI/releases/latest)
+
+### PM AI Partner Framework
+
+AI-powered skills, workflows, and methodology for Product Managers. 12 agent skills, 6 workflow commands, and 3 automation hooks for Claude Code, Cursor, and Codex.
 
 ```bash
-# Preview locally
-python -m http.server 8000
-# Open http://localhost:8000
+npx pm-ai-partner@latest
 ```
 
-## Contact
+[GitHub](https://github.com/ahmedkhaledmohamed/PM-AI-Partner-Framework) · [npm](https://www.npmjs.com/package/pm-ai-partner) · [Landing Page](https://ahmedkhaledmohamed.github.io/PM-AI-Partner-Framework/)
 
-- Email: ahmed.khaled.a.mohamed@gmail.com
-- LinkedIn: [linkedin.com/in/ahmedkhaledmohamed](https://linkedin.com/in/ahmedkhaledmohamed)
+### Bézier
+
+AI-powered design generation desktop app. Transforms text prompts into professional designs with structured regions -- lock what you love, regenerate the rest. Features selective regeneration, version timeline, semantic diff, and quality validation.
+
+Built with Electron, React, TypeScript, Claude API, and Ideogram API. Local-first with SQLite.
+
+[GitHub](https://github.com/BezierAI) · [Website](https://bezierai.github.io/bezierai.github.io/)
+
+### Parenting Assistant
+
+AI-powered family planning platform with real-time streaming, multi-modal assistance, and production-grade infrastructure. Helps families with meal planning, chore scheduling, and routine building using a multi-provider LLM architecture (Claude, GPT, open-source models), RAG with pgvector, and Server-Sent Events for live responses.
+
+Full-stack: FastAPI backend on DigitalOcean + native iOS app on TestFlight.
+
+[GitHub](https://github.com/ParentingAssistant) · [Backend](https://parenting-assistant-platform-39b47.ondigitalocean.app)
+
+---
+
+## This Site
+
+Pure HTML/CSS/JS, no framework dependencies, responsive design, hosted on GitHub Pages.
+
+```bash
+python -m http.server 8000
+```
 
