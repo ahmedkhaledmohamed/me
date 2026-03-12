@@ -34,13 +34,13 @@ Built with Electron, React, TypeScript, Claude API, and Ideogram API. Local-firs
 
 [GitHub](https://github.com/BezierAI) · [Website](https://bezierai.github.io/bezierai.github.io/)
 
-### Parenting Assistant
+### Zia
 
-AI-powered family planning platform with real-time streaming, multi-modal assistance, and production-grade infrastructure. Helps families with meal planning, chore scheduling, and routine building using a multi-provider LLM architecture (Claude, GPT, open-source models), RAG with pgvector, and Server-Sent Events for live responses.
+AI-powered family assistant for meal planning, chore scheduling, and routine building. Multi-provider LLM orchestration (Claude, GPT, open-source models), RAG with pgvector, and real-time streaming.
 
-Full-stack: FastAPI backend on DigitalOcean + native iOS app on TestFlight.
+Full-stack: FastAPI backend on DigitalOcean + native iOS app on the App Store.
 
-[GitHub](https://github.com/ParentingAssistant) · [Backend](https://parenting-assistant-platform-39b47.ondigitalocean.app)
+[GitHub](https://github.com/ParentingAssistant)
 
 ---
 
