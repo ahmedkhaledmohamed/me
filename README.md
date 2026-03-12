@@ -2,7 +2,7 @@
 
 Personal website showcasing my professional profile.
 
-**Live**: [ahmedkhaledmohamed.github.io/Me](https://ahmedkhaledmohamed.github.io/Me)
+**Live**: [ahmedkhaledmohamed.github.io/Me](https://ahmedkhaledmohamed.github.io/me)
 
 ---
 
