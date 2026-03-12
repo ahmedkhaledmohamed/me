@@ -1,7 +1,18 @@
+// Mobile nav toggle
+const navToggle = document.querySelector('.nav-toggle');
+const navLinksContainer = document.querySelector('.nav-links');
+
+navToggle.addEventListener('click', () => {
+    navToggle.classList.toggle('active');
+    navLinksContainer.classList.toggle('open');
+});
+
 // Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
+        navToggle.classList.remove('active');
+        navLinksContainer.classList.remove('open');
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
             target.scrollIntoView({
@@ -50,7 +61,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-document.querySelectorAll('.timeline-item, .project-card, .skill-category').forEach(el => {
+document.querySelectorAll('.timeline-item, .project-card, .philosophy-card, .skill-category').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
