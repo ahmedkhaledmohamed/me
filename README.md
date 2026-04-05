@@ -1,6 +1,6 @@
 # Ahmed Khaled Mohamed
 
-Engineering leader with 12+ years building platforms at Spotify and Delivery Hero. Currently shipping AI products.
+Senior engineering leader building platform systems at Spotify. Leading messaging infrastructure for 700M+ users — client SDKs, delivery systems, experimentation primitives, and ML-driven relevance. 12+ years across engineering, product, and leadership.
 
 **Website**: [ahmedkhaledmohamed.github.io/me](https://ahmedkhaledmohamed.github.io/me) · **LinkedIn**: [ahmedkhaledmohamed](https://linkedin.com/in/ahmedkhaledmohamed) · **Email**: ahmed.khaled.a.mohamed@gmail.com
 
