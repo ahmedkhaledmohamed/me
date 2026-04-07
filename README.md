@@ -30,7 +30,7 @@ npx pm-ai-partner@latest
 
 Personal command center and workspace intelligence platform. Scans directories, indexes documents, and surfaces everything in a searchable, AI-augmented interface with document hygiene analysis, knowledge graphs, predictive briefings, and hub-to-hub federation.
 
-57 REST API endpoints, 12 MCP tools, 875 tests. Built with Next.js 15, React 19, SQLite FTS5, and MCP SDK.
+60+ REST API endpoints, 23 MCP tools, 1000+ tests. Built with Next.js 15, React 19, SQLite FTS5, and MCP SDK.
 
 [GitHub](https://github.com/ahmedkhaledmohamed/the-hub) · [Website](https://ahmedkhaledmohamed.github.io/the-hub/)
 
@@ -52,7 +52,7 @@ Full-stack: FastAPI backend on DigitalOcean + native iOS app on the App Store.
 
 ### Khalil
 
-Self-healing personal AI assistant. Multi-channel messaging (Telegram, Slack, Discord), 37 self-describing action modules with skill-based dispatch, three-tier autonomy model, hybrid local/cloud LLM orchestration, and a self-healing engine that reads its own source code, generates patches, and opens PRs.
+Self-healing personal AI assistant. Multi-channel messaging (Telegram, Slack, Discord, WhatsApp), 37 self-describing action modules with skill-based dispatch, three-tier autonomy model, hybrid local/cloud LLM orchestration, and a self-healing engine that reads its own source code, generates patches, and opens PRs.
 
 Built with Python, FastAPI, SQLite + sqlite-vec, Ollama, and Claude.
 
