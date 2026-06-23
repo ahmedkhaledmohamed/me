@@ -56,6 +56,56 @@ Self-healing personal AI assistant. Multi-channel messaging (Telegram, Slack, Di
 
 Built with Python, FastAPI, SQLite + sqlite-vec, Ollama, and Claude.
 
+[GitHub](https://github.com/ahmedkhaledmohamed/khalil)
+
+### AI Evals Framework
+
+Quality evaluation framework for AI-assisted PM workflows. Structured eval pipelines with LLM-as-judge scoring, regression detection, calibration against human ratings, and automated reporting dashboards.
+
+[GitHub](https://github.com/ahmedkhaledmohamed/ai-thinking-partner-evals-framework)
+
+### LLM Toolkit
+
+Collection of tools and utilities for working with large language models — prompt engineering patterns, token management, model comparison, and evaluation harnesses.
+
+[GitHub](https://github.com/ahmedkhaledmohamed/llm-toolkit)
+
+---
+
+## Spotify Internal Tools
+
+Built for Client Messaging (Messaging Platform & Technology) at Spotify. These run on Spotify's internal infrastructure.
+
+### Client Messaging Product Catalog
+
+Delivery intelligence platform for the Client Messaging team. Interactive roadmaps, analytics dashboards, system maps, prototypes, and planning tools — all powered by a Node.js server with SQLite, synced daily with Groove (Spotify's work graph).
+
+**Pages**: Gantt Roadmap · Waterfall Roadmap · MP&T Platform Roadmap · System Map · Gap Analysis · Workstreams · Prototypes · AI Quality Dashboard
+
+[Live](https://client-messaging-catalog.taskforce.spotify.net)
+
+### Moments Catalog
+
+Visual catalog builder for defining behavioral Moments — 20 moments, 26 signals, 18 eligibility rules, 16 triggers. Next.js with shadcn/ui.
+
+[Live](https://snow.spotify.net/spa/moments-catalog)
+
+### Orchestration Dashboard
+
+Cross-channel messaging orchestration dashboard. BigQuery-powered analytics showing message volume, delivery funnels, and cross-channel conflicts across push, in-app, and inbox.
+
+[Live](https://snow.spotify.net/spa/messaging-orchestration-dashboard)
+
+### User Journey Explorer
+
+Per-user moment intelligence platform. Explores the intersection of user behavior, messaging history, and moment signals. Next.js + BigQuery + Postgres.
+
+[Live](https://user-journey-explorer.taskforce.spotify.net)
+
+### Nestor
+
+MP&T knowledge system. Hybrid search + knowledge graph over 200+ messaging platform documents with semantic retrieval and entity relationships.
+
 ---
 
 ## This Site
@@ -65,4 +115,3 @@ Pure HTML/CSS/JS, no framework dependencies, responsive design, hosted on GitHub
 ```bash
 python -m http.server 8000
 ```
-
