@@ -1,6 +1,6 @@
 # Ahmed Khaled Mohamed
 
-Product & engineering leader building platform systems and AI tools at Spotify. Leading messaging infrastructure for 700M+ users. Before product, 6 years managing engineering teams up to 18 across Berlin and Asia. 12 years shipping.
+Platform leader who builds. Managed 18 engineers, owned product strategy for 700M+ users at Spotify, and I still ship code. Grew platform adoption from 20% to 80% at Delivery Hero. 12 years across engineering, management, and product. 8 shipped products — on the App Store, on npm, across 3 platforms.
 
 **Website**: [ahmedkhaledmohamed.github.io/me](https://ahmedkhaledmohamed.github.io/me) · **LinkedIn**: [ahmedkhaledmohamed](https://linkedin.com/in/ahmedkhaledmohamed) · **Substack**: [ahmedkhaledmohamed.substack.com](https://ahmedkhaledmohamed.substack.com) · **Email**: ahmed.khaled.a.mohamed@gmail.com
 
