@@ -32,7 +32,7 @@ Personal command center and workspace intelligence platform. Scans directories, 
 
 60+ REST API endpoints, 23 MCP tools, 1000+ tests. Built with Next.js 15, React 19, SQLite FTS5, and MCP SDK.
 
-[GitHub](https://github.com/ahmedkhaledmohamed/the-hub) · [Website](https://ahmedkhaledmohamed.github.io/the-hub/)
+[GitHub](https://github.com/ahmedkhaledmohamed/the-hub) · [npm](https://www.npmjs.com/package/the-hub) · [Website](https://ahmedkhaledmohamed.github.io/the-hub/)
 
 ### Bézier
 
@@ -50,9 +50,25 @@ Full-stack: FastAPI backend on DigitalOcean + native iOS app on the App Store.
 
 [GitHub](https://github.com/ParentingAssistant)
 
+### Putlock
+
+Visual-first cooking app powered by a meal-ingredient graph. Meals connected through shared ingredients, cuisines, and techniques — enabling cost-optimized weekly planning, zero-waste grocery lists, and intelligent meal discovery across 25 cuisines.
+
+Built with Next.js, Sigma.js, Llama 3.3, and SwiftUI.
+
+[GitHub](https://github.com/ahmedkhaledmohamed/MiseEnPlace) · [Landing Page](https://mealgraph.vercel.app) · [Graph Explorer](https://mealgraph.vercel.app/explore)
+
+### Parallax
+
+Personalized review re-scorer. Google gives every restaurant one score — Parallax decomposes reviews into dimensional claims and re-weights them based on what you care about right now.
+
+Built with Next.js 16, Groq (Llama 3.3 70B), and Google Places API. Available as web app, iOS, and Android.
+
+[GitHub](https://github.com/ahmedkhaledmohamed/parallax) · [Live App](https://parallax-ten-sigma.vercel.app)
+
 ### Khalil
 
-Self-healing personal AI assistant. Multi-channel messaging (Telegram, Slack, Discord, WhatsApp), 37 self-describing action modules with skill-based dispatch, three-tier autonomy model, hybrid local/cloud LLM orchestration, and a self-healing engine that reads its own source code, generates patches, and opens PRs.
+Self-improving AI agent with 59 skills, 200+ actions, 910 tests, and 24 behavioral contracts. Phase-aware execution pipeline, hybrid local/cloud LLM orchestration, and a self-healing engine that reads its own source code, generates patches, and opens PRs.
 
 Built with Python, FastAPI, SQLite + sqlite-vec, Ollama, and Claude.
 
