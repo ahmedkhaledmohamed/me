@@ -402,13 +402,34 @@ body {
 }
 
 .project-card {
-    padding: 2rem;
+    padding: 0;
     background: var(--bg-secondary);
     border: 1px solid var(--border);
     border-radius: 12px;
     transition: all 0.3s;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+}
+
+.project-screenshot {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: top left;
+    border-bottom: 1px solid var(--border);
+    transition: opacity 0.3s;
+}
+
+.project-card:hover .project-screenshot {
+    opacity: 0.85;
+}
+
+.project-card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .project-card:hover {
@@ -463,6 +484,7 @@ body {
     gap: 1rem;
     flex-wrap: wrap;
     margin-top: auto;
+    padding-top: 0.25rem;
 }
 
 .project-link {
@@ -559,8 +581,14 @@ body {
 /* Skills */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .skill-category {
