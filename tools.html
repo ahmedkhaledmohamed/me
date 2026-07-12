@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Khaled Mohamed — Tools & Stack</title>
+    <meta name="description" content="85+ tools, platforms, and APIs across 10 shipped products. The full stack behind everything I build.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0a0b'/%3E%3Ctext x='16' y='22' text-anchor='middle' fill='%23f59e0b' font-family='system-ui' font-size='16' font-weight='700'%3EA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .tool-category {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        .tool-category h3 {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        .tool-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .tool-tag {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            padding: 0.35rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+        }
+        .tool-tag:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+        .tool-tag .count {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-left: 4px;
+        }
+        .tools-hero {
+            padding: calc(var(--section-padding) * 0.6) 0;
+            text-align: center;
+        }
+        .tools-hero h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .tools-hero p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .tools-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        .tools-stat {
+            text-align: center;
+        }
+        .tools-stat .num {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+            font-family: var(--font-mono);
+        }
+        .tools-stat .label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            transition: color 0.2s;
+        }
+        .back-link:hover { color: var(--accent); }
+        .project-uses {
+            margin-top: 3rem;
+        }
+        .project-uses h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        .project-stack-row {
+            display: flex;
+            align-items: baseline;
+            gap: 1rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .project-stack-row:last-child { border-bottom: none; }
+        .project-stack-name {
+            font-weight: 600;
+            min-width: 140px;
+            color: var(--text-primary);
+        }
+        .project-stack-name a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        .project-stack-name a:hover { color: var(--accent); }
+        .project-stack-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+        .project-stack-tags .tool-tag {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="noise"></div>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">AKM</a>
+            <div class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="tools.html" class="active">Tools</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section">
+            <div class="section-inner">
+                <a href="index.html" class="back-link">&larr; Back to portfolio</a>
+
+                <div class="tools-hero">
+                    <h1>Tools & Stack</h1>
+                    <p>Everything I use across 10 shipped products — from cloud platforms to local dev tools.</p>
+                </div>
+
+                <div class="tools-stats">
+                    <div class="tools-stat">
+                        <div class="num">85+</div>
+                        <div class="label">Tools & APIs</div>
+                    </div>
+                    <div class="tools-stat">
+                        <div class="num">10</div>
+                        <div class="label">Shipped Products</div>
+                    </div>
+                    <div class="tools-stat">
+                        <div class="num">6</div>
+                        <div class="label">Languages</div>
+                    </div>
+                    <div class="tools-stat">
+                        <div class="num">5</div>
+                        <div class="label">Platforms</div>
+                    </div>
+                </div>
+
+                <div class="tools-grid">
+
+                    <div class="tool-category">
+                        <h3>AI & LLM</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">Claude / Anthropic<span class="count">5</span></span>
+                            <span class="tool-tag">GPT-4 / OpenAI<span class="count">2</span></span>
+                            <span class="tool-tag">Groq<span class="count">2</span></span>
+                            <span class="tool-tag">Together AI<span class="count">3</span></span>
+                            <span class="tool-tag">Ollama<span class="count">1</span></span>
+                            <span class="tool-tag">Ideogram<span class="count">1</span></span>
+                            <span class="tool-tag">RunPod<span class="count">1</span></span>
+                            <span class="tool-tag">FLUX (Schnell/Dev/Pro)<span class="count">1</span></span>
+                            <span class="tool-tag">Seedance 2.0<span class="count">1</span></span>
+                            <span class="tool-tag">Llama 3.3 70B<span class="count">3</span></span>
+                            <span class="tool-tag">MCP Protocol<span class="count">2</span></span>
+                            <span class="tool-tag">pgvector<span class="count">2</span></span>
+                            <span class="tool-tag">sqlite-vec<span class="count">1</span></span>
+                            <span class="tool-tag">ChromaDB<span class="count">1</span></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h3>Cloud & Hosting</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">Vercel<span class="count">6</span></span>
+                            <span class="tool-tag">GitHub<span class="count">10</span></span>
+                            <span class="tool-tag">GitHub Actions<span class="count">2</span></span>
+                            <span class="tool-tag">Neon (PostgreSQL)<span class="count">2</span></span>
+                            <span class="tool-tag">Upstash (Redis + Vector)<span class="count">1</span></span>
+                            <span class="tool-tag">Railway<span class="count">1</span></span>
+                            <span class="tool-tag">Firebase<span class="count">2</span></span>
+                            <span class="tool-tag">TestFlight<span class="count">2</span></span>
+                            <span class="tool-tag">App Store Connect<span class="count">1</span></span>
+                            <span class="tool-tag">Docker<span class="count">2</span></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h3>Web Frameworks</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">Next.js 15/16<span class="count">6</span></span>
+                            <span class="tool-tag">React 18/19<span class="count">7</span></span>
+                            <span class="tool-tag">FastAPI<span class="count">4</span></span>
+                            <span class="tool-tag">Vite<span class="count">2</span></span>
+                            <span class="tool-tag">Electron<span class="count">2</span></span>
+                            <span class="tool-tag">Tailwind CSS v4<span class="count">7</span></span>
+                            <span class="tool-tag">Radix UI<span class="count">1</span></span>
+                            <span class="tool-tag">TanStack Query<span class="count">1</span></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h3>Mobile</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">SwiftUI<span class="count">4</span></span>
+                            <span class="tool-tag">Jetpack Compose<span class="count">2</span></span>
+                            <span class="tool-tag">Xcode<span class="count">4</span></span>
+                            <span class="tool-tag">Android Studio<span class="count">2</span></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h3>Languages</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">TypeScript<span class="count">8</span></span>
+                            <span class="tool-tag">Python<span class="count">5</span></span>
+                            <span class="tool-tag">Swift<span class="count">4</span></span>
+                            <span class="tool-tag">Kotlin<span class="count">2</span></span>
+                            <span class="tool-tag">Go<span class="count">1</span></span>
+                            <span class="tool-tag">JavaScript<span class="count">3</span></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h3>Databases</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">PostgreSQL<span class="count">3</span></span>
+                            <span class="tool-tag">SQLite<span class="count">4</span></span>
+                            <span class="tool-tag">SQLite FTS5<span class="count">1</span></span>
+                            <span class="tool-tag">Redis<span class="count">1</span></span>
+                            <span class="tool-tag">BigQuery<span class="count">1</span></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h3>APIs & Integrations</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">Google APIs (7 services)<span class="count">1</span></span>
+                            <span class="tool-tag">Google Routes<span class="count">1</span></span>
+                            <span class="tool-tag">Slack SDK<span class="count">1</span></span>
+                            <span class="tool-tag">Telegram Bot API<span class="count">1</span></span>
+                            <span class="tool-tag">Discord.py<span class="count">1</span></span>
+                            <span class="tool-tag">Spotify Web API<span class="count">1</span></span>
+                            <span class="tool-tag">PostHog<span class="count">1</span></span>
+                            <span class="tool-tag">NextAuth v5<span class="count">2</span></span>
+                            <span class="tool-tag">Nodemailer<span class="count">1</span></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h3>Media & Processing</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">FFmpeg<span class="count">1</span></span>
+                            <span class="tool-tag">PyTorch<span class="count">1</span></span>
+                            <span class="tool-tag">Diffusers (HuggingFace)<span class="count">1</span></span>
+                            <span class="tool-tag">Transformers<span class="count">1</span></span>
+                            <span class="tool-tag">Pillow<span class="count">1</span></span>
+                            <span class="tool-tag">Sigma.js<span class="count">1</span></span>
+                            <span class="tool-tag">Recharts<span class="count">2</span></span>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h3>Dev Tools & Testing</h3>
+                        <div class="tool-list">
+                            <span class="tool-tag">Playwright<span class="count">2</span></span>
+                            <span class="tool-tag">pytest<span class="count">2</span></span>
+                            <span class="tool-tag">Vitest<span class="count">1</span></span>
+                            <span class="tool-tag">ESLint<span class="count">6</span></span>
+                            <span class="tool-tag">Claude Code<span class="count">10</span></span>
+                            <span class="tool-tag">Cursor<span class="count">3</span></span>
+                            <span class="tool-tag">npm / pnpm<span class="count">8</span></span>
+                            <span class="tool-tag">pip / setuptools<span class="count">4</span></span>
+                            <span class="tool-tag">BeautifulSoup4<span class="count">2</span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project-uses">
+                    <h2>By Project</h2>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="#sceneforge">SceneForge</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">FastAPI</span>
+                            <span class="tool-tag">React</span>
+                            <span class="tool-tag">Vite</span>
+                            <span class="tool-tag">Together AI</span>
+                            <span class="tool-tag">RunPod</span>
+                            <span class="tool-tag">FLUX</span>
+                            <span class="tool-tag">Seedance</span>
+                            <span class="tool-tag">FFmpeg</span>
+                            <span class="tool-tag">Docker</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#parallax">Parallax</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">Next.js 16</span>
+                            <span class="tool-tag">SwiftUI</span>
+                            <span class="tool-tag">Jetpack Compose</span>
+                            <span class="tool-tag">Groq</span>
+                            <span class="tool-tag">Upstash</span>
+                            <span class="tool-tag">Vercel</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#zia">Zia</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">SwiftUI</span>
+                            <span class="tool-tag">FastAPI</span>
+                            <span class="tool-tag">Claude</span>
+                            <span class="tool-tag">GPT-4</span>
+                            <span class="tool-tag">pgvector</span>
+                            <span class="tool-tag">SSE</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#khalil">Khalil</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">FastAPI</span>
+                            <span class="tool-tag">SQLite</span>
+                            <span class="tool-tag">Claude</span>
+                            <span class="tool-tag">Ollama</span>
+                            <span class="tool-tag">sqlite-vec</span>
+                            <span class="tool-tag">Playwright</span>
+                            <span class="tool-tag">Google APIs</span>
+                            <span class="tool-tag">Slack</span>
+                            <span class="tool-tag">Telegram</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#the-hub">The Hub</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">Next.js 15</span>
+                            <span class="tool-tag">React 19</span>
+                            <span class="tool-tag">SQLite FTS5</span>
+                            <span class="tool-tag">MCP SDK</span>
+                            <span class="tool-tag">Tailwind v4</span>
+                            <span class="tool-tag">npm</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#onroute">OnRoute</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">SwiftUI</span>
+                            <span class="tool-tag">Jetpack Compose</span>
+                            <span class="tool-tag">Vercel</span>
+                            <span class="tool-tag">Google Routes</span>
+                            <span class="tool-tag">PostHog</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#compass-ai">Compass AI</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">FastAPI</span>
+                            <span class="tool-tag">Electron</span>
+                            <span class="tool-tag">React</span>
+                            <span class="tool-tag">Claude</span>
+                            <span class="tool-tag">ChromaDB</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#putlock">Putlock</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">Next.js</span>
+                            <span class="tool-tag">Sigma.js</span>
+                            <span class="tool-tag">Llama 3.3</span>
+                            <span class="tool-tag">SwiftUI</span>
+                            <span class="tool-tag">Vercel</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#bezier">Bézier</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">Electron</span>
+                            <span class="tool-tag">React</span>
+                            <span class="tool-tag">Claude</span>
+                            <span class="tool-tag">Ideogram</span>
+                            <span class="tool-tag">SQLite</span>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-row">
+                        <div class="project-stack-name"><a href="index.html#pm-ai-partner">PM AI Partner</a></div>
+                        <div class="project-stack-tags">
+                            <span class="tool-tag">Node.js</span>
+                            <span class="tool-tag">Claude Code</span>
+                            <span class="tool-tag">Cursor</span>
+                            <span class="tool-tag">npm</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Ahmed Khaled Mohamed &middot; Toronto, Canada</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
