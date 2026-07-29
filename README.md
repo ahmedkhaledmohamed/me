@@ -1,6 +1,6 @@
 # Ahmed Khaled Mohamed
 
-Platform leader who builds. Managed 18 engineers, owned product strategy for 700M+ users at Spotify, and I still ship code. Grew platform adoption from 20% to 80% at Delivery Hero. 12 years across engineering, management, and product. 9 shipped products — on the App Store, on npm, across 3 platforms in 2 weeks.
+Platform leader who builds. Managed 18 engineers, owned product strategy for 700M+ users at Spotify, and I still ship code. Grew platform adoption from 20% to 80% at Delivery Hero. 12 years across engineering, management, and product. 10 shipped products — on the App Store, on npm, across 3 platforms in 2 weeks.
 
 **Website**: [ahmedkhaledmohamed.github.io/me](https://ahmedkhaledmohamed.github.io/me) · **LinkedIn**: [ahmedkhaledmohamed](https://linkedin.com/in/ahmedkhaledmohamed) · **Substack**: [ahmedkhaledmohamed.substack.com](https://ahmedkhaledmohamed.substack.com) · **Email**: ahmed.khaled.a.mohamed@gmail.com
 
@@ -9,7 +9,7 @@ Platform leader who builds. Managed 18 engineers, owned product strategy for 700
 ## Currently
 
 - **Senior Product Manager — Messaging Platform** at Spotify (Toronto). Push, in-app, inbox for 700M+ users.
-- Building and shipping on the side — 9 projects live.
+- Building and shipping on the side — 10 projects live.
 
 ## Projects
 
@@ -58,6 +58,12 @@ Cursor for Product Managers. CLI + Desktop + MCP.
 Meal-ingredient graph across 25 cuisines. Visual explorer + cost-optimized planning.
 
 [Landing Page](https://mealgraph.vercel.app) · [Graph Explorer](https://mealgraph.vercel.app/explore)
+
+### SceneForge
+
+Concept to stitched video in one tool. AI video production studio — multi-reference character-consistent generation, smart model routing across 3 providers, cost tracking per artifact.
+
+[Website](https://sceneforge-sandy.vercel.app) · [Studio Demo](https://sceneforge-studio-three.vercel.app) · [GitHub](https://github.com/ahmedkhaledmohamed/SceneForge)
 
 ### Bézier
 
