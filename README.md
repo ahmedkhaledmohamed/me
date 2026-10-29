@@ -23,7 +23,7 @@ Platform leader who builds. Managed 16 engineers, owned product strategy for 700
 
 Concept to App Store in 8 weeks. AI family assistant with multi-LLM orchestration (Claude + GPT-4) and RAG.
 
-[App Store](https://apps.apple.com/us/app/zia-family-assistant/id6754940890) · [GitHub](https://github.com/ParentingAssistant)
+[App Store](https://apps.apple.com/us/app/zia-family-assistant/id6754940890)
 
 ### OnRoute
 
@@ -51,7 +51,7 @@ Published to npm. 12 agent skills, 6 workflows for Product Managers.
 
 Cursor for Product Managers. CLI + Desktop + MCP.
 
-[Website](https://compass-ai-app.github.io/compass-AI/) · [GitHub](https://github.com/Compass-AI-App/compass-AI)
+[Website](https://ahmedkhaledmohamed.github.io/compass-AI/) · [GitHub](https://github.com/ahmedkhaledmohamed/compass-AI)
 
 ### Putlock
 
@@ -69,4 +69,4 @@ Concept to stitched video in one tool. AI video production studio — multi-refe
 
 AI design generation with semantic region control. Lock what you love, regenerate the rest.
 
-[Website](https://bezierai.github.io/bezierai.github.io/) · [GitHub](https://github.com/BezierAI)
+[Website](https://bezierai.github.io/)
